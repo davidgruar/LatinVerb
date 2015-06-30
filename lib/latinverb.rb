@@ -19,11 +19,11 @@ require 'latinverb_infinitives'
 require 'latinverb_participles'
 require 'latinverb_serialization'
 
-require 'latinverb/version'
-require 'latinverb/validator'
-require 'latinverb/tense_block_names'
+require_relative './latinverb/version'
+require_relative './latinverb/validator'
+require_relative './latinverb/tense_block_names'
 
-require 'latinverb/latinverb'
+require_relative './latinverb/latinverb'
 
 # Some handy constants for paradigmatic verbs
-require 'latinverb/paradigmatic_verbs'
+require_relative './latinverb/paradigmatic_verbs'
